@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: JobsMod
+Implementation-Version: 2.2
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2022-11-12T03:19:23+0100
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+

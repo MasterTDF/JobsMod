@@ -69,9 +69,9 @@ public class JobsInfo {
 
     //Conversion with total xp long[]
     public JobsInfo fromTotalXPs(long[] total) {
-        if (total.length != 4) return new JobsInfo();
+        if (total.length != 8) return new JobsInfo();
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 8; i++) {
             long l = total[i];
             Job j = Job.byIndex(i);
             set(j, l);
@@ -82,7 +82,7 @@ public class JobsInfo {
     public long[] toTotalXPs() {
         long[] total = new long[]{0, 0, 0, 0};
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 8; i++) {
             long l = Constants.TOTAL_XP_BY_LEVEL[this.levels[i]] + this.XPs[i];
             total[i] = l;
 

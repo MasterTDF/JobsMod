@@ -31,7 +31,7 @@ public class JobArgument implements ArgumentType<Job> {
 
     @Override
     public <S> CompletableFuture<Suggestions> listSuggestions(CommandContext<S> context, SuggestionsBuilder builder) {
-        return builder.suggest("HUNTER").suggest("MAGICIAN").suggest("FARMER").suggest("MINER").suggest("ENGINEER").suggest("SMITH").suggest("ARTISAN").suggest("ALCHEMIST").buildFuture();
+        return builder.suggest("HUNTER").suggest("WIZARD").suggest("FARMER").suggest("MINER").suggest("ENGINEER").suggest("SMITH").suggest("ARTISAN").suggest("ALCHEMIST").buildFuture();
     }
 
 
