@@ -24,8 +24,8 @@ import static com.mastertdf.jobs.util.Constants.Job.*;
 
 public class JobsInfo {
 
-    private final int[] levels = new int[]{0, 0, 0, 0};
-    private final long[] XPs = new long[]{0, 0, 0, 0};
+    private final int[] levels = new int[]{0, 0, 0, 0, 0, 0, 0};
+    private final long[] XPs = new long[]{0, 0, 0, 0, 0, 0, 0};
 
 
     //Set Values
