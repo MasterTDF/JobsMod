@@ -80,7 +80,7 @@ public class JobsInfo {
     }
 
     public long[] toTotalXPs() {
-        long[] total = new long[]{0, 0, 0, 0};
+        long[] total = new long[]{0, 0, 0, 0, 0, 0, 0};
 
         for (int i = 0; i < 7; i++) {
             long l = Constants.TOTAL_XP_BY_LEVEL[this.levels[i]] + this.XPs[i];
