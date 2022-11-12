@@ -175,8 +175,6 @@ public class LoadUtil {
                             GainXPUtil.REWARDS_SMITH.put(lvl, list);
                         case ARTISAN:
                             GainXPUtil.REWARDS_ARTISAN.put(lvl, list);
-                        case ALCHEMIST:
-                            GainXPUtil.REWARDS_ALCHEMIST.put(lvl, list);
                         default:
                             break;
                     }

@@ -42,7 +42,7 @@ public class CommandInfo {
             PacketHandler.sendMessageToClient(sender, new StringTextComponent(TextFormatting.BLUE + "Your Stats"));
         else
             PacketHandler.sendMessageToClient(sender, new StringTextComponent(TextFormatting.LIGHT_PURPLE + "Stats of " + TextFormatting.BLUE + target.getName().getString()));
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 7; i++) {
             int lvl = infos.getLevelByJob(Job.byIndex(i));
             long xp = infos.getXPByJob(Job.byIndex(i));
             PacketHandler.sendMessageToClient(sender, new StringTextComponent(TextFormatting.LIGHT_PURPLE + Job.byIndex(i).name() + " : lvl " +

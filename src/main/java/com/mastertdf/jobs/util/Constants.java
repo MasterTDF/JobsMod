@@ -150,7 +150,6 @@ public class Constants {
         ENGINEER(4, "engineer"),
         SMITH(5, "smith"),
         ARTISAN(6, "artisan"),
-        ALCHEMIST(7, "alchemist"),
         NONE(-1, "none");
 
         public int index;
@@ -177,8 +176,6 @@ public class Constants {
                     return SMITH;
                 case 6:
                     return ARTISAN;
-                case 7:
-                    return ALCHEMIST;
                 default:
                     return NONE;
             }
@@ -186,7 +183,7 @@ public class Constants {
 
         public static String[] names() {
             return new String[]{HUNTER.name(), WIZARD.name(), FARMER.name(), MINER.name(),
-            ENGINEER.name(), SMITH.name(), ARTISAN.name(), ALCHEMIST.name()};
+            ENGINEER.name(), SMITH.name(), ARTISAN.name()};
         }
 
         public static Job fromString(String str) {

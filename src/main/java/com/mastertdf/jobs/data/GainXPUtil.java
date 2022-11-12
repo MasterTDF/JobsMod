@@ -41,7 +41,6 @@ public class GainXPUtil {
     public static Map<Integer, List<ItemStack>> REWARDS_ENGINEER = new HashMap<>();
     public static Map<Integer, List<ItemStack>> REWARDS_SMITH = new HashMap<>();
     public static Map<Integer, List<ItemStack>> REWARDS_ARTISAN = new HashMap<>();
-    public static Map<Integer, List<ItemStack>> REWARDS_ALCHEMIST = new HashMap<>();
 
 
     public static void sendDataToClient(ServerPlayerEntity player) {

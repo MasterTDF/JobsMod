@@ -12,7 +12,7 @@ jobs.miner=Miner
 jobs.miner=Engineer
 jobs.miner=Smith
 jobs.miner=Artisan
-jobs.miner=Alchemist
+
 
 //Items
 item.jobs_book.name=Jobs Book

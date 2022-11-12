@@ -69,9 +69,9 @@ public class JobsInfo {
 
     //Conversion with total xp long[]
     public JobsInfo fromTotalXPs(long[] total) {
-        if (total.length != 8) return new JobsInfo();
+        if (total.length != 7) return new JobsInfo();
 
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 7; i++) {
             long l = total[i];
             Job j = Job.byIndex(i);
             set(j, l);
@@ -82,7 +82,7 @@ public class JobsInfo {
     public long[] toTotalXPs() {
         long[] total = new long[]{0, 0, 0, 0};
 
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 7; i++) {
             long l = Constants.TOTAL_XP_BY_LEVEL[this.levels[i]] + this.XPs[i];
             total[i] = l;
 
@@ -156,10 +156,6 @@ public class JobsInfo {
                 for (ItemStack s : GainXPUtil.REWARDS_ARTISAN.get(lvl))
                     list.add(s.copy());
                 break;
-            case ALCHEMIST:
-                for (ItemStack s : GainXPUtil.REWARDS_ALCHEMIST.get(lvl))
-                    list.add(s.copy());
-                break;
             default:
                 break;
         }
@@ -171,26 +167,25 @@ public class JobsInfo {
 
     public void fromNBT(CompoundNBT nbt) {
         this.fromTotalXPs(new long[]{nbt.getLong("hunter"),
-                nbt.getLong("magician"),
+                nbt.getLong("wizard"),
                 nbt.getLong("farmer"),
                 nbt.getLong("miner"),
                 nbt.getLong("engineer"),
                 nbt.getLong("smith"),
-                nbt.getLong("artisan"),
-                nbt.getLong("alchemist")});
+                nbt.getLong("artisan")});
     }
 
     public CompoundNBT toNBT() {
         CompoundNBT nbt = new CompoundNBT();
         long[] xps = this.toTotalXPs();
         nbt.putLong("hunter", xps[0]);
-        nbt.putLong("magician", xps[1]);
+        nbt.putLong("wizard", xps[1]);
         nbt.putLong("farmer", xps[2]);
         nbt.putLong("miner", xps[3]);
         nbt.putLong("engineer", xps[4]);
         nbt.putLong("smith", xps[5]);
         nbt.putLong("artisan", xps[6]);
-        nbt.putLong("alchemist", xps[7]);
+
 
         return nbt;
     }
