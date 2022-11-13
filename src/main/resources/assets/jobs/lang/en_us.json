@@ -6,6 +6,10 @@
 "jobs.magician" : "Magician",
 "jobs.farmer" : "Farmer",
 "jobs.miner" : "Miner",
+  "jobs.miner" : "Engineer",
+  "jobs.miner" : "Smith",
+  "jobs.miner" : "Artisan",
+
 
 "text.level" : "level",
 "text.levelup" : "Level Up",
