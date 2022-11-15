@@ -6,16 +6,23 @@ keys.jobs.open_gui=Open Jobs Menu
 //Jobs
 
 jobs.hunter=Hunter
-jobs.magician=Wizard
+jobs.wizard=Wizard
 jobs.farmer=Farmer
 jobs.miner=Miner
-jobs.miner=Engineer
-jobs.miner=Smith
-jobs.miner=Artisan
+jobs.engineer=Engineer
+jobs.smith=Smith
+jobs.artisan=Artisan
 
 
 //Items
-item.jobs_book.name=Jobs Book
+items.jobs_book=Book of Jobs
+items.jobs_book_artisan=Book of Artisans
+items.jobs_book_engineer=Book of Engineers
+items.jobs_book_farmer=Book of Farmers
+items.jobs_book_hunter=Book of Hunters
+items.jobs_book_smith=Book of Smiths
+items.jobs_book_wizard=Book of Wizards
+items.shard_of_xp=Shard of Experience
 
 
 
