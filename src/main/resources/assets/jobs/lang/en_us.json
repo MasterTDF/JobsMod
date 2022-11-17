@@ -10,14 +10,7 @@
   "jobs.smith" : "Smith",
   "jobs.artisan" : "Artisan",
 
-  "items.jobs_book" : "Book of Jobs",
-  "items.jobs_book_artisan" : "Book of Artisans",
-  "items.jobs_book_engineer" : "Book of Engineers",
-  "items.jobs_book_farmer" : "Book of Farmers",
-  "items.jobs_book_hunter" : "Book of Hunters",
-  "items.jobs_book_smith" : "Book of Smiths",
-  "items.jobs_book_wizard" : "Book of Wizards",
-  "items.shard_of_xp" : "Shard of Experience",
+
 
 
 "text.level" : "level",
@@ -37,6 +30,17 @@
 "category.KILLING" : "Killing",
 "category.HARVESTING" : "Harvesting",
 "category.UNLOCK" : "Locked Items",
-"category.XP" : "How to XP ?"
+"category.XP" : "How to XP ?",
+
+  "item.jobs.jobs_book": "Book of Jobs",
+  "item.jobs.jobs_book_artisan": "Book of Artisans",
+  "item.jobs.jobs_book_engineer": "Book of Engineers",
+  "item.jobs.jobs_book_farmer": "Book of Farmers",
+  "item.jobs.jobs_book_hunter": "Book of Hunters",
+  "item.jobs.jobs_book_smith": "Book of Smiths",
+  "item.jobs.jobs_book_wizard": "Book of Wizards",
+  "item.jobs.shard_of_xp": "Shard of Experience",
+
+"ItemGroup.JobsModTab": "Jobs"
 }
 

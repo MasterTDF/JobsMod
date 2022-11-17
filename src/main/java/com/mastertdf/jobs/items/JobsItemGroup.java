@@ -1,3 +1,4 @@
+/*
 package com.mastertdf.jobs.items;
 
 import net.minecraft.item.ItemGroup;
@@ -16,5 +17,6 @@ public class JobsItemGroup {
             return new ItemStack(JobsItems.Jobs_Book_Wizard.get());
             return new ItemStack(JobsItems.Shard_of_xp.get());
         }
-    }
-}
+    };
+};
+*/

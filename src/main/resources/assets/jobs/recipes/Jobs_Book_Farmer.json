@@ -1,13 +1,13 @@
 {
     "type": "minecraft:crafting_shaped",
-    
+
     "pattern":
     [
         "LRL",
         "RBR",
         "LRL"
     ],
-    
+
     "key":
     {
         "B":
@@ -16,18 +16,16 @@
         },
         "L":
         {
-            "item": "minecraft:dye",
-            "data": 4
+            "item": "minecraft:stone_hoe"
         },
         "R":
         {
-            "item": "minecraft:redstone"
+            "item": "minecraft:wheat"
         }
     },
-    
+
     "result":
     {
-        "item": "jobs:jobs_book",
-        "count": 1
+        "item": "jobs:jobs_book_farmer"
     }
 }

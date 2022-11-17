@@ -16,18 +16,16 @@
         },
         "L":
         {
-            "item": "minecraft:dye",
-            "data": 4
+            "item": "minecraft:stone_pickaxe"
         },
         "R":
         {
-            "item": "minecraft:redstone"
+            "item": "minecraft:wheat_seed"
         }
     },
     
     "result":
     {
-        "item": "jobs:jobs_book",
-        "count": 1
+        "item": "jobs:jobs_book"
     }
 }
